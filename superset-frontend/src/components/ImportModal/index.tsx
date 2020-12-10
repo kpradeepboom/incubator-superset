@@ -235,7 +235,7 @@ const ImportModelsModal: FunctionComponent<ImportModelsModalProps> = ({
           <div>{confirmOverwriteMessage}</div>
           <div className="control-label">
             <label htmlFor="overwrite">
-              {t('Type "OVERWRITE" to confirm')}
+              {t('Type "%s" to confirm', t('OVERWRITE'))}
             </label>
           </div>
           <input

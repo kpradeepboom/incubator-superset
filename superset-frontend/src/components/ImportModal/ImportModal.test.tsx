@@ -33,6 +33,7 @@ const requiredProps = {
   resourceLabel: 'model',
   icon: <StyledIcon name="database" />,
   passwordsNeededMessage: 'Passwords are needed',
+  confirmOverwriteMessage: 'Database exists',
   addDangerToast: () => {},
   addSuccessToast: () => {},
   onModelImport: () => {},
